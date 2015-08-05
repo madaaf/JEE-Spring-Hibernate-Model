@@ -53,6 +53,10 @@ public class PageController {
 
 		String image1 = clientStudentService.iamge1();
 		String image2 = clientStudentService.iamge2();
+		logger.debug("image 1 ", image1);
+		logger.debug("image 2 ", image2);
+		System.out.println("image 1" + image1);
+		System.out.println("image 2" + image2);
 		model.addAttribute("image1", image1);
 		model.addAttribute("image2", image2);
 

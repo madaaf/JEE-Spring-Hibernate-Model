@@ -22,7 +22,7 @@ public class ClientStudentService {
 	private static final String ROOT = "http://localhost:8080/testExam/api";
 	private static final String URI = "/students";
 	private static final String image1 = "/50/50";
-	private static final String image2 = "100/100";
+	private static final String image2 = "/100/100";
 
 	Logger logger = LoggerFactory.getLogger(ClientStudentService.class);
 
@@ -48,7 +48,7 @@ public class ClientStudentService {
 		WebTarget webTarget = client.target(ROOT + image1);
 		Invocation.Builder invocationBuilder = webTarget.request();
 		Response response = invocationBuilder.get();
-		String ok = response.ok().toString();
+		String ok = response.readEntity(String.class);
 		return ok;
 	}
 
@@ -58,7 +58,7 @@ public class ClientStudentService {
 		WebTarget webTarget = client.target(ROOT + image2);
 		Invocation.Builder invocationBuilder = webTarget.request();
 		Response response = invocationBuilder.get();
-		String ok = response.getEntity().toString();
+		String ok = response.readEntity(String.class);
 		return ok;
 	}
 }

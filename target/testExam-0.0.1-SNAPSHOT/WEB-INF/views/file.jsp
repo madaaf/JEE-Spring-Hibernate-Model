@@ -31,6 +31,11 @@
 						</tr>
 					</tbody>
 				</c:forEach>
+	<p>image</p>
+
+	<img id="flag" src="${image1}"/>
+	<img id="flag2" src="${image2}"/>
+
 	<!-- Browse attribute computers -->
 	<p> LIST OF STUDIENT WITH CLIENT SERVICE</p>
 				<c:forEach items="${clientStudents}" var="student">
