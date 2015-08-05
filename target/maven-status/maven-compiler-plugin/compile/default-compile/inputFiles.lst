@@ -1,0 +1,14 @@
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/service/StudentService.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/core/Student.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/persistence/IStudentDAO.java
+/home/excilys/workspace/testExam/target/generated-sources/java/com/excilys/aflak/core/QSchool.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/service/SchoolService.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/persistence/ISchoolDAO.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/persistence/ICrudDAO.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/webservice/RestService.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/persistence/impl/StudentDAO.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/core/School.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/client/ClientStudentService.java
+/home/excilys/workspace/testExam/target/generated-sources/java/com/excilys/aflak/core/QStudent.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/webapp/PageController.java
+/home/excilys/workspace/testExam/src/main/java/com/excilys/aflak/persistence/impl/SchoolDAO.java

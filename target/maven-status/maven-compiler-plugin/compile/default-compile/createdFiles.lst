@@ -1,0 +1,15 @@
+com/excilys/aflak/persistence/ISchoolDAO.class
+com/excilys/aflak/persistence/ICrudDAO.class
+com/excilys/aflak/core/QStudent.class
+com/excilys/aflak/client/ClientStudentService$1.class
+com/excilys/aflak/persistence/impl/StudentDAO.class
+com/excilys/aflak/persistence/IStudentDAO.class
+com/excilys/aflak/client/ClientStudentService.class
+com/excilys/aflak/core/QSchool.class
+com/excilys/aflak/core/School.class
+com/excilys/aflak/webapp/PageController.class
+com/excilys/aflak/webservice/RestService.class
+com/excilys/aflak/service/StudentService.class
+com/excilys/aflak/service/SchoolService.class
+com/excilys/aflak/core/Student.class
+com/excilys/aflak/persistence/impl/SchoolDAO.class
